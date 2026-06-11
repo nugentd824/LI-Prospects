@@ -1,6 +1,6 @@
 # LI-Prospects
 
-Working repository for a B2B prospect research agent that identifies and qualifies LinkedIn prospects for a group sourcing (GPO-style) procurement program serving $100M+ US food & beverage manufacturers.
+Working repository for a B2B prospect research agent supporting Dan Nugent, Principal Consultant at The Seismic Group. The agent identifies and qualifies LinkedIn prospects for the firm's group sourcing (GPO-style) procurement program serving $100M+ US food & beverage manufacturers.
 
 The agent researches, qualifies, scores, and organizes prospects. It does **not** conduct outreach — the consultant owns all engagement.
 
@@ -22,6 +22,6 @@ The agent researches, qualifies, scores, and organizes prospects. It does **not*
 
 ## Placeholders to complete before deployment
 
-- [ ] Replace `[FIRM NAME]` and `[CONSULTANT]` in `CLAUDE.md`
+- [x] Replace `[FIRM NAME]` and `[CONSULTANT]` in `CLAUDE.md` — The Seismic Group / Dan Nugent
 - [ ] Populate `exclusion-list.csv` with current members and active deals
 - [ ] Note any priority segments or geographies-within-US to mine first
