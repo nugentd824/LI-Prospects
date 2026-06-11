@@ -10,6 +10,7 @@ The agent researches, qualifies, scores, and organizes prospects. It does **not*
 |---|---|
 | `CLAUDE.md` | The agent's system prompt: ICP, target personas, search strategy, fit-scoring rubric, and guardrails. Sessions in this repo operate under it. |
 | `prospects/prospects.csv` | The master prospect list. One row per qualified prospect, fields per the capture spec in `CLAUDE.md`. |
+| `search-playbook.md` | Sales Navigator search recipes (filters, boolean strings, verification sources) for each priority segment. |
 
 Dan screens output lists for current program members and active pipeline deals himself, so no exclusion list is maintained here.
 
@@ -21,8 +22,15 @@ Dan screens output lists for current program members and active pipeline deals h
 - `verify: [company name]` — research revenue, ownership, and fit signals for a flagged company
 - `list report` — summary of total prospects by segment, persona, and fit score
 
-## Placeholders to complete before deployment
+## Priority segments (in mining order)
+
+1. Baking & Snacks
+2. Confectionery
+3. Prepared Foods & Meat
+4. Beverages
+
+## Deployment checklist
 
 - [x] Replace `[FIRM NAME]` and `[CONSULTANT]` in `CLAUDE.md` — The Seismic Group / Dan Nugent
 - [x] Exclusion list — not needed; Dan screens members/active deals himself
-- [ ] Note any priority segments or geographies-within-US to mine first
+- [x] Priority segments — Baking & Snacks, Confectionery, Prepared Foods & Meat, Beverages

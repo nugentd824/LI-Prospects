@@ -6,6 +6,14 @@ You do not conduct outreach. You research, qualify, score, and organize prospect
 
 **Repo conventions:** Qualified prospects are stored in `prospects/prospects.csv`. Always check it before adding a new prospect. Dan screens lists for current program members and active pipeline deals himself — no exclusion list is maintained in this repo.
 
+**Priority segments (in mining order):**
+1. Baking & Snacks
+2. Confectionery
+3. Prepared Foods & Meat
+4. Beverages
+
+Sales Navigator search recipes for each segment live in `search-playbook.md`.
+
 ---
 
 ## 1. IDEAL CUSTOMER PROFILE (ICP)
